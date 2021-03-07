@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "MMIW.py",
         "cursor": {
-          "lineNumber": 36,
-          "column": 39
+          "lineNumber": 28,
+          "column": 74
         },
         "config": {
           "runtime": "python3.8",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1615128215400
+        "lastUpdated": 1615129208301
       },
       "fa18fb95-ce8f-42ce-a67c-9b490c5eee3c": {
         "id": "fa18fb95-ce8f-42ce-a67c-9b490c5eee3c",
@@ -60,7 +60,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -93,7 +93,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1615129128054
+    "lastSave": 1615130008583
   },
   "VCS_STATE": {
     "provider": "GitHub",

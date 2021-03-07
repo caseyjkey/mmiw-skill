@@ -25,7 +25,7 @@ class LostInformationIntentHandler(AbstractRequestHandler):
         return is_intent_name("LostInformationIntent")(handler_input)
 
     def handle(self, handler_input):
-        name = handler_input.request_envelope.request.intent.slots['name'].value
+        name = handler_input.request_envelope.request.intent.slots['women'].value
         speech_text = "My custom Intent handler " + name
         handler_input.response_builder.speak(speech_text).set_should_end_session(False)
         return handler_input.response_builder.response 
