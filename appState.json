@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "32d149d9-9862-43c9-bc62-3413fd6b0581": {
+        "id": "32d149d9-9862-43c9-bc62-3413fd6b0581",
+        "parent": null,
+        "name": "MMIW.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MMIW.py",
+        "cursor": {
+          "lineNumber": 36,
+          "column": 39
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "MMIW"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK7de0096061814f178c35a913ecec1578",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1615128215400
+      },
+      "fa18fb95-ce8f-42ce-a67c-9b490c5eee3c": {
+        "id": "fa18fb95-ce8f-42ce-a67c-9b490c5eee3c",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
+      }
+    },
+    "openFiles": [
+      "32d149d9-9862-43c9-bc62-3413fd6b0581"
+    ],
+    "currentFileId": "32d149d9-9862-43c9-bc62-3413fd6b0581",
+    "resources": {
+      "alexaSK7de0096061814f178c35a913ecec1578": {
+        "name": "alexaSK7de0096061814f178c35a913ecec1578",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.7de00960-6181-4f17-8c35-a913ecec1578",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.0",
+    "projectName": "MMIW",
+    "projectDescription": "Hackathon 007 - ",
+    "projectVersion": "0.0.1",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1615129128054
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "mmiw-skill",
+      "url": "https://github.com/ffelix1/mmiw-skill"
+    }
+  }
+}
