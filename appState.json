@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "MMIW.py",
         "cursor": {
-          "lineNumber": 28,
-          "column": 74
+          "lineNumber": 8,
+          "column": 67
         },
         "config": {
           "runtime": "python3.8",
@@ -93,7 +93,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1615130008583
+    "lastSave": 1615137728427
   },
   "VCS_STATE": {
     "provider": "GitHub",
